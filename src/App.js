@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import {  Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './routes/Home';
 import About from './routes/About';
 import Service from './routes/Service';
@@ -9,8 +9,10 @@ import Notfound from './routes/Not_found';
 
 const App = () => {
   return (
-    <div className='App'>
-      
+
+
+    <BrowserRouter>
+      <div className='App'>
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Home />} />
@@ -19,8 +21,11 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
- 
-    </div>
+      </div>
+    </BrowserRouter>
+
+
+
   )
 }
 

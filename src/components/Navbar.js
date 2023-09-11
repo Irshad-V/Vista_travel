@@ -13,7 +13,7 @@ function Navbar() {
     }
     return (
         <nav className='NavbarItems'>
-            <h1 className='navbar-logo'> Vista </h1>
+            <h1 className='navbar-logo'> Vista</h1>
             <div className='menu-icons'>
                 <i className={clicked ?  'fas fa-times':'fas fa-bars'}onClick={clickedStatus} ></i>
             </div>
@@ -35,7 +35,7 @@ function Navbar() {
             </ul>
 
 
-
+ 
 
 
 
