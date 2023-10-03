@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import heroImg from '../asset/night.jpg'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
+
 const About = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const About = () => {
     
     <AboutUs/>
     <Footer/>
+    <h1 className='name'>name</h1>
 </>
   )
 }
