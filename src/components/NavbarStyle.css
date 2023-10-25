@@ -79,8 +79,15 @@ button:hover {
 @media screen and (max-width: 850px) {
     .NavbarItems{
         z-index: 99;
+        height: 70px;
     }
 
+    .navbar-logo {
+
+        font-size: 1.2rem;
+       
+    }
+    
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -111,7 +118,7 @@ button:hover {
     .nav-links {
         display: block;
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 1.5rem 0;
     }
 

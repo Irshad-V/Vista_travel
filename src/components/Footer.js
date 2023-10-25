@@ -6,7 +6,7 @@ function Footer() {
         <div className='footer'>
             <div className='top'>
                 <div>
-                    <h1>Vista</h1>
+                    <h2>Vista</h2>
                     <p>Choose your favourite destination</p>
                 </div>
                 <div>
