@@ -77,3 +77,14 @@
     }
     
 }
+
+@media screen and (max-width:450px) {
+    .destination{
+        margin: 1rem 2rem;
+    }
+}
+@media screen and (max-width:380px) {
+    .destination{
+        margin: -3rem 2rem;
+    }
+}
